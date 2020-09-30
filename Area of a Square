@@ -1,0 +1,6 @@
+//https://www.codewars.com/kata/5748838ce2fab90b86001b1a/train/javascript
+function squareArea(A){
+let r = (4 * A / Math.PI) / 2;
+  let Ssq =  r * r;
+  return +Ssq.toFixed(2);
+}
